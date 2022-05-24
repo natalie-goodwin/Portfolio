@@ -1,0 +1,66 @@
+/*****************************************TAG Selectors*********************************/
+body {
+        background-color: rgb(255, 235, 193);
+    }
+
+
+
+     hr {
+        
+        border-style: none;
+        border-top-style: groove;
+        border-color: rgb(166, 75, 42);
+        border-width:  10px;
+        width: 100%
+  }
+
+   
+  h1, h2, h3 {
+        color:rgb(166, 75, 42);
+        
+    }
+
+    p, li, label, tr, a {
+       color: rgb(142, 50, 0);
+    }
+   
+    a:hover {
+        color: rgb(215, 168, 110);
+    }
+
+/*****************************************CLASS SELECTORS********************************/
+/******************Notes:A class may be used on multiple elements in a page or site**/
+
+ /*The class will allow changes to the 1st horizontal rule under each page's NavBar*/
+.mealPlan {
+
+    border: solid;
+    border-radius: 10%;
+    border-color: rgb(142, 50, 0);
+    border-width: 10%;
+    height: 200px;
+    
+}   
+
+.war {
+    border: solid;
+    border-radius: 10%;
+    border-color: rgb(142, 50, 0);
+    border-width: 10%;
+    height: 200px;
+    width: 22%;
+    
+    
+}
+
+.me {
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(142, 50, 0);
+    border-width: 10%;
+
+}
+
+/****************************************ID SELECTORS**************************************/
+/*Notes: On any given page, a particular ID May only appear in one tag on
+the page; you may have more than one tag with an id: but it has to be a unique ID******************************************/
