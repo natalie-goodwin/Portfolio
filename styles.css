@@ -1,38 +1,51 @@
 /*****************************************TAG Selectors*********************************/
-body {
-        background-color: rgb(255, 235, 193);
-    }
+body { /*this gives a 0 margin for the body so the top div runs all the way across the page */ 
+    margin: 0;
 
-
-
-     hr {
+}
+hr { /*controls the appearance of the horizontal rule under the navigation bar div */
         
         border-style: none;
-        border-top-style: groove;
+        border-top-style: dotted;
         border-color: rgb(166, 75, 42);
-        border-width:  10px;
-        width: 100%
+        border-width:  4px;
+        width: 40%
   }
 
    
-  h1, h2, h3 {
+  h1, h2, h3 { /* color for the headers*/
         color:rgb(166, 75, 42);
         
     }
 
-    p, li, label, tr, a {
+    p, li, label, tr, a { /*color for the paragraphs, lists, form label, tabel rows, and a elements */ 
        color: rgb(142, 50, 0);
     }
    
-    a:hover {
+    a:hover { /*all a elements will change color when you hover over */ 
         color: rgb(215, 168, 110);
     }
+
 
 /*****************************************CLASS SELECTORS********************************/
 /******************Notes:A class may be used on multiple elements in a page or site**/
 
  /*The class will allow changes to the 1st horizontal rule under each page's NavBar*/
-.mealPlan {
+ 
+
+ 
+ .divA { /*This class is for the div that holds the navigation bar; */
+    background-color: rgb(255, 235, 193);
+    margin: 0;
+    padding: 35px;
+    border-color: rgb(142, 50, 0);
+    border-width: 100%;
+    
+}
+
+
+
+ .mealPlan { /*class for Meal Plan image*/
 
     border: solid;
     border-radius: 10%;
@@ -42,7 +55,7 @@ body {
     
 }   
 
-.war {
+.war { /* class for War Game image */ 
     border: solid;
     border-radius: 10%;
     border-color: rgb(142, 50, 0);
@@ -53,7 +66,7 @@ body {
     
 }
 
-.me {
+.me { /* this is the class for the photo on the about page*/
     border: solid;
     border-radius: 10px;
     border-color: rgb(142, 50, 0);
@@ -61,6 +74,15 @@ body {
 
 }
 
-/****************************************ID SELECTORS**************************************/
-/*Notes: On any given page, a particular ID May only appear in one tag on
-the page; you may have more than one tag with an id: but it has to be a unique ID******************************************/
+.workExperienceTable, th, td { /*class for table under Work Experience */ 
+    border: 1px solid;
+    border-color: rgb(142, 50, 0);
+    
+}
+
+.navBar { /*this is the class for the navigaiton bar at the top of each page */ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
